@@ -1,4 +1,1 @@
-
-
-print("preetii")
-print("kanchan")
+print("Hello")
