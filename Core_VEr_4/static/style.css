@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    color: rgb(237, 0, 245);
+    font-size: 45px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu {
+    width: 40px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(8, 128, 233);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover,
+ul li a:active {
+    color: #da6200;
+}
+
+.container {
+    padding: 30px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: -0.2px;
+    font-family: "Marriweather", serif;
+
+}
+
+p {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.textarea {
+    width: 50%;
+    height: 316px;
+    padding: 18px;
+    resize: none;
+    background-color: rgb(200, 201, 211);
+    border: 0.5px solid rgb(400, 80, 267);
+    border-radius: 16px;
+    margin: auto; /* Center horizontally */
+    display: block; /* Ensure it's a block-level element for margin: auto to work */
+    margin-top: 20px;
+}
+
+.textarea:focus {
+    border: 0.3 solid rgb(43, 53, 0.3);
+    outline: none;
+}
+
+p,
+textarea {
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: rgb(17, 166, 131);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 16px 32px;
+    border: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-top: -80px;
+}
+
+button:focus,
+button:hover {
+    background: rgb(27, 17, 166);
+}
